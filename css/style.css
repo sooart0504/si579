@@ -1,0 +1,17 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-height: 300px;
+}
+
+h2 {
+    font-size: 18px;
+    color: rgb(211, 75, 26);
+}
+
+footer {
+    font-size: 12px;
+    color: rgb(97, 97, 97);
+} 
