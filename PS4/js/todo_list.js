@@ -16,6 +16,9 @@ function addTask(description, timestamp) {
     } else {
         newList.innerHTML = description + ' <span class="due">due ' + showTime + '</span><button class="btn btn-sm btn-outline-danger done" type="button">Done</button>';
         taskList.append(newList);
+
+        dateInputElement.value = "";
+        timeInputElement.value = "";
     }
 
     // console.log(description, "Is this working?");
